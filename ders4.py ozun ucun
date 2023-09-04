@@ -1,0 +1,35 @@
+# append metodu ( sona elave etmek)
+# insert metodu ( istediyin yerden elave etmek indeksle)  x.insert(1,'****') 
+# remove metodu (siradan neyise silmek)
+# pop metodu  ( en sondakini silmek)
+# extend metodu ( birden cox element elave etmek)
+# revense metodu ( listi tersden yeniden siraliyir)
+# sort ve metodu ( sort elifba sirasina gore yeniden yigir ve ya kicikden boyuye,) 
+# len - sayir
+# sum - listede olan reqemlerin cemini verir
+
+# x = [ [1,2,3],[4,5,6,],[7,8,9]]
+# print(x[1][1]) list icinde list
+
+# for - alt alta yazdirir meselen 
+# renkler = [ "siyah", "mavi", "boz", "yesil"]
+# for i in renkler:
+#     print(i) rengler alt alta dusecek
+
+# enumerate - listi nomreleyir meselen
+# renkler = [ "siyah", "mavi", "boz", "yesil"]
+# print(list(enumerate(renkler)))
+# eger siralamanin birden yox basqa reqemle baslamasini isteyirsense
+# print(list(enumerate(renkler, start = istediyin reqem)))
+
+# # in = listede hemin elementin varmi yoxsa yoxmu onu deyir , meselen
+# print("siyah" in renkler) cavab ya true ya False
+
+
+# listeyi stringe  cevirmek ve join metodu
+# stringrenkler = " ".join(renkler) # ps. bosluga ne yazsan o durgu isaresi gedecek
+# print(stringrenkler)
+
+# # stringi listeye cevirmek ve split metodu 
+# renkler2 = stringrenkler.split(" ")
+# print(renkler2) 

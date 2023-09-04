@@ -1,0 +1,459 @@
+
+# def y():
+
+#     a = input(' Metn daxil edin : ')
+
+#     if a == 'Aslan':
+#         print('Aslan emi ogludur')
+#     else:
+#         print('Aslan emi oglu deyil')
+
+
+#     a = input(' Metn daxil edin : ')
+
+#     if a == "Imran":
+#         print(' Imran dayi ogludur')
+#     else:
+#         print(' Imran dayi oglu deyil')
+
+#     a = input( ' Metn daxil edin : ')
+
+#     if a == 'Afaq':
+#         print('Afaq bibi qizidir')
+#     else:
+#         print('Afaq bibi qizi deyil')
+
+#     a = input(' Metn daxil edin : ')
+
+#     if a == 'Uzeyir':
+#         print('Uzeyir xala ogludur')
+#     else:
+#         print('Uzeyir xala oglu deyil')
+
+#     a = input( ' Metn daxil edin : ')
+
+#     if a == 'Sahin':
+#         print('Sahin yaxin dostdur')
+#     else:
+#         print('Sahin yaxin dost deyil')
+
+#     a = input( " Metn daxil edin : ")
+#     if a == 'Senan':
+#         print('Men taniyiram')
+#     else:
+#         print('Murad kimdi, men onu tanimiram')
+
+#     a == input( '' )
+#     if a == '':
+#         print("ad daxil edin")
+#     else:
+#         print("boslugu doldurun")
+
+# y()
+
+
+# def k():
+
+#         a = input(' login daxil edin : ')
+
+#         if a == "Nuray":
+#             print(" login duzgundur")
+#         else:
+#             print(" login yalnisdir")
+        
+#         c = input( " ad daxil edin : ") 
+#         b = int(input(" reqem daxil edin : "))
+#         if c == "Nuray" and b == 1234:
+#             print('xos gelmisiniz')
+#         else:
+#             print('login sehvdir')
+
+
+# k()
+
+
+# def z():
+
+#     a=3
+#     b=4
+#     c=5
+
+#     print(max('a,b,c'))
+
+# z()    
+
+
+# def a():
+
+#     for i in range(1,11):
+#         for n in range(1,11):
+#             print (str(i) + 'x' + str(n) + '=' + str(i * n))
+
+# a()
+
+
+# def f():
+
+#     a = int(input('reqem elave edin'))
+
+#     if ( (a % 2) == 0 ):
+#         print( 'cut ededdir')
+#     else:
+#         print( 'tek ededdir' )
+
+# f()
+
+# def l():
+
+#     a = int(input( ' boyu daxil edin '))
+#     b = int(input( ' cekini daxil edin '))
+    
+#     c = b / a ** 2
+
+#     if c < 18.5:
+#         print( 'zeif' )
+#     elif 18.5 < c and c < 25:
+#         print( 'normal' )
+#     elif 25 < c and c < 30:
+#         print( 'kilolu' )
+#     elif c > 30:
+#         print( 'obez' )
+
+# l()
+
+# def task():
+
+#     x = [ 'Nuray', 'ilkin', 'zemine', 'fidan' ]
+
+#     print(x[0])
+#     print(x[-1])
+
+# task()
+
+# def Nur():
+
+#     x = [5, 6, [], 3, [], [], 9]
+#     for i in x:
+#         if i != []:
+#             print(i)
+    
+# Nur()
+        
+
+# def b():
+
+#     x = int(input('reqem daxil edin'))
+#     if x<0:
+#         print( 'menfi' )
+#     else:
+#         print( 'musbet' )
+
+
+# b()
+
+# def g():
+#     a = [ 'Nuray', 'ilkin', 'zemine', 'fidan' ]
+
+#     ad = int(input( ' ad daxil edin (1), adi silin (2) ' ))
+
+#     if ad == 1:
+#         s = input('ad daxil edin : ')
+#         a.append(s)
+#         print(a)
+#         for i in a:
+#             print(i)
+#     if ad == 2:
+#         s = input('adi silin : ')
+#         a.remove(s)
+#         print(a)
+        
+#         for i in a:
+#             print(i)
+
+# g()            
+
+# def d():
+#     a = [1,2,3,4,5,6,7,8,9,10,11,12]
+
+#     for i in a:
+
+#         if i % 3 == 0:
+#             print(i)
+
+
+# d()
+
+# def z():
+#     a = input('metn daxil edin : ')
+
+#     if len(a)>15:
+#         print('max 15 herf daxil edin')
+#     else:
+#         print('xos geldiniz' + ' ' + a)
+
+
+# z()        
+
+
+# def b(): 
+#     a = [ 1,2,3,4,5]
+
+#     print(sum(a))
+
+# b()
+
+
+
+# def c():
+#     a = ( 1,2,3,4,5)
+
+#     a = list(a)
+
+#     a.append(6)
+
+#     a = tuple(a)
+
+#     print(a)
+
+# c()
+
+
+# def c():
+#     a = {'ad':'Fuad'}
+
+#     ad = input('secim edin (1) keys (2) values : ')
+
+#     if ad == '':
+#         print('xais edirik secim edin')
+
+#     if ad == '1':
+#         print(a.keys())
+
+#     if ad == '2':
+#         print(a.values())
+
+# c()
+
+
+# from datetime import datetime
+
+# a = input('dogum gununuzu daxil edin : ')
+
+# bugun = datetime.now()
+
+
+# past = datetime.strptime(a, '%Y.%m.%d' )
+
+# netice = bugun - past
+
+# san = netice.total_seconds()
+
+# san = int(san)
+
+# deq = int(san / 60)
+
+# saat = int(deq / 60)
+
+# gun = int(saat / 24)
+
+# ay = int(gun / 30)
+
+# yas = int(ay / 12)
+
+# print(' siz heyatda '+ str(san) + ' saniye '+str(deq) + ' deqiqe '+str(saat)+ ' saat '+str(gun)+ ' gun '+str(ay)+' aydirki varsiniz')
+
+
+# import os
+
+# try:
+
+#     a = int(input('secim edin :(1) spesifik elementi qaytar : (2) bazani sil '))
+
+#     if a == 1:
+
+#         data = int(input('secim edin : '))
+
+#         ders7 = open('test.txt','r')
+
+#         list = ders7.readlines()
+
+#         print(list[a])
+
+#     if a == 2:
+
+#         os.remove('test.txt')
+
+#     else:
+#         print('Duzgun daxil etmediniz')
+
+# except ValueError :
+
+#     print(' sehv qeyd etmisiniz ')
+     
+
+
+# a = [ 'python', 'java', 'javascript' ]
+
+# for x in a:
+#     if 'j' in x:
+#         print(x)
+
+# a = {'ad':'fuad', 'soyad':'Eliyev','ish':['Bank Respublika','exspress bank'] }
+
+
+# a['ish'].append('kapital bank')
+
+# print(a)
+
+
+# a = [{
+    
+#     "id":"2489651045","type":"CreateEvent",
+#       "actor":{"id":665991,"login":"petroav","gravatar_id":"","url":"https://api.github.com/users/petroav","avatar_url":"https://avatars.githubusercontent.com/u/665991?"},
+#       "repo":{"id":28688495,"name":"petroav/6.828","url":"https://api.github.com/repos/petroav/6.828"},
+#       "payload":{"ref":"master","ref_type":"branch","master_branch":"master","description":"Solution to homework and assignments from MIT's 6.828 (Operating Systems Engineering). Done in my spare time.","pusher_type":"user"},
+#       "public":True,"created_at":"2015-01-01T15:00:00Z"}
+
+# ]
+
+# print(a[0]['public'])
+
+
+# b = [1,2,3,4,5,6]
+# c = [6,7,8,9,10]
+# for d in b:
+#     if d not in c:
+#         c.append(d)
+
+# print(c)        
+
+
+
+
+
+# import sqlite3
+
+# from random import randint
+
+# db = sqlite3.connect('data.db')
+
+# sql = db.cursor()
+
+# sql.execute("CREATE TABLE IF NOT EXISTS data (login TEXT,password INT,cash INT)")
+
+# secim = int(input(""" 
+                  
+# secim edin : \n  
+# (1) Qeydiyyatdan kecin : \n 
+# (2) Oyuna basla  : \n 
+# (3) Istifadecini sil : \n
+# (4) Melumat
+#                    """))
+
+# if secim == 1:
+#     login = input("login daxil edin : ")
+#     password = int(input("parolu daxil edin : "))
+#     cash = int(input("daxil etmek istediyiniz meblegi girin : "))
+#     sql.execute(f"INSERT INTO data (login,password,cash) VALUES('{login}','{password}','{cash}')")
+    
+#     print(" siz ugurla kecdiniz ")
+#     db.commit()
+
+# if secim == 2:
+#     login = input("login daxil edin : ")
+#     password = int(input("parolu daxil edin : "))
+#     number = randint(1,2)
+
+#     sql.execute(f"SELECT login, password FROM data WHERE login = '{login}' AND password = '{password}' ") 
+
+
+#     try:
+#         if login in sql.fetchone():
+
+
+
+#             if number == 1:
+#                 sql.execute(f"UPDATE data SET cash = cash + '{50}' WHERE login == '{login}' AND password == '{password}' ")
+#                 print("siz qalib geldiniz")
+
+#             if number == 2:
+#                 sql.execute(f"UPDATE data SET cash = cash - '{50}' WHERE login == '{login}' AND password == '{password}' ")
+
+        
+
+#             print("siz meglub oldunuz)")
+
+#             db.commit()
+        
+#         else:
+#             print('bu istifadeci movcud deyil')
+
+#     except TypeError:
+#         print('bu istifadeci movcud deyil')
+
+# if secim == 3:
+
+#     login = input("login daxil edin : ")
+#     password = int(input("parolu daxil edin : "))
+#     sql.execute("DELETE FROM data WHERE login == '{login}' AND password == '{password}' ")
+
+#     print("Ugurla silindi")
+
+#     db.commit()
+
+# if secim == 4:
+
+#     login = input("login daxil edin : ")
+#     password = int(input("parolu daxil edin : "))
+#     sql.execute(f"SELECT * from data WHERE login == '{login}' AND password == '{password}' ")
+
+#     print(sql.fetchone())
+
+    
+
+
+
+
+
+# import sqlite3
+
+# db = sqlite3.connect('valyuta.db')
+
+# sql = db.cursor()
+
+# sql.execute("CREATE TABLE IF NOT EXISTS aliram (azn INT,usd INT,eur INT)")
+
+# sql.execute("CREATE TABLE IF NOT EXISTS satiram (azn INT,usd INT,eur INT)")
+
+# azn = int(input( " meblegi daxil edin"))
+
+
+
+
+
+
+
+
+
+
+# satis = input("Satiram (AZN, USD , EUR) ")
+
+# alis = input("Aliram (AZN, USD , EUR) ")
+
+
+# mebleg = int(input( 'meblegi daxil edin : '))
+
+# if satis == 'AZN' and alis == 'EUR':
+#     print('mebleg * 0.54')
+# elif satis == 'AZN' and alis == 'USD':
+#     print('mebleg * 0.59')
+# elif satis == 'EUR' and alis == 'AZN':
+#     print('mebleg * 1.84')
+# elif satis == 'EUR' and alis == 'USD':
+#     print('mebleg * 1.08')
+# elif satis == "USD" and alis == 'AZN':
+#     print('mebleg * 1.7')
+# elif satis == 'USD' and alis == "EUR":
+#     print('mebleg * 0.93')
+
+
